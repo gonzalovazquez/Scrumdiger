@@ -62,13 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				C88CF8792A1853860052C3EA /* ScrumdigerApp.swift */,
-				C88CF87B2A1853860052C3EA /* MeetingView.swift */,
 				C88CF8872A185ADC0052C3EA /* Models */,
 				C88CF87D2A1853870052C3EA /* Assets.xcassets */,
 				C88CF87F2A1853870052C3EA /* Preview Content */,
-				C88CF88C2A185DAC0052C3EA /* CardView.swift */,
-				C88CF8902A1866D30052C3EA /* ScrumsView.swift */,
-				C88CF88E2A18623A0052C3EA /* TrailingIconLabelStyle.swift */,
+				C8DB33722A190F7D00B6E6CC /* Views */,
 			);
 			path = Scrumdiger;
 			sourceTree = "<group>";
@@ -88,6 +85,17 @@
 				C88CF88A2A185CA80052C3EA /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C8DB33722A190F7D00B6E6CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C88CF88C2A185DAC0052C3EA /* CardView.swift */,
+				C88CF87B2A1853860052C3EA /* MeetingView.swift */,
+				C88CF8902A1866D30052C3EA /* ScrumsView.swift */,
+				C88CF88E2A18623A0052C3EA /* TrailingIconLabelStyle.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
