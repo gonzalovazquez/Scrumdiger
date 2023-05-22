@@ -1,10 +1,3 @@
-//
-//  Theme.swift
-//  Scrumdiger
-//
-//  Created by Gonzalo Vazquez on 2023-05-19.
-//
-
 import SwiftUI
 
 
@@ -39,13 +32,16 @@ enum Theme: String {
     case tan
 
     case teal
+
+    case yellow
+
     
 
     var accentColor: Color {
 
         switch self {
 
-        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal: return .black
+        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return .black
 
         case .indigo, .magenta, .navy, .oxblood, .purple: return .white
 
@@ -59,6 +55,10 @@ enum Theme: String {
 
     }
 
+    var name: String {
+
+        rawValue.capitalized
+
+    }
+
 }
-
-
